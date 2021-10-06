@@ -86,6 +86,9 @@
 		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/main.c">
 			<Option target="ObjetTp2"/>
 		</Unit>
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/tri_tas.h">
+			<Option target="ObjetTp2"/>
+		</Unit>
 		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
