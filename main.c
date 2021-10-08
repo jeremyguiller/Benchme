@@ -21,7 +21,7 @@ float *getTab(int size, int graine)
 int main() {
     //initialisation Tri_tas
     clock_t debut,fin;
-    double temps, moy = 0;
+    double temps, moy;
     for(int k=2;k<8;k++){
         moy = 0;
         int size = pow(10,k);
@@ -35,8 +35,9 @@ int main() {
             moy+=temps;
             g++;
         }
+        printf("\n\nTemps d'execution : %.4f",moy/3);
     }
-    printf("\n\nTemps d'execution : %.4f",moy/3);
+
 
 
 }
