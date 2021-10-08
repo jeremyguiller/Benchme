@@ -1,9 +1,7 @@
 //
-// Created by j.guillerminprina on 06/10/2021.
+// Created by j.guillerminprina on 08/10/2021.
 //
 
-#ifndef OBJETTP2_TRI_TAS_H
-#define OBJETTP2_TRI_TAS_H
 /**
 * La fonction Tri_cas permet de trier un tableau de taille evolutive à l'aide de
 * de l'algorithme de tri par tas
@@ -48,5 +46,3 @@ void Tri_tas(float t[], int taille) {
         Sur_le_tas(t, i, 0);
     }
 }
-
-#endif //OBJETTP2_TRI_TAS_H

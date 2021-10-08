@@ -74,16 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_bulle.h">
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Fonctions.h">
 			<Option target="ObjetTp2"/>
 		</Unit>
-		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_insertion.h">
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_bulle.c">
 			<Option target="ObjetTp2"/>
 		</Unit>
-		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_selection.h">
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_insertion.c">
 			<Option target="ObjetTp2"/>
 		</Unit>
-		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_tas.h">
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_selection.c">
+			<Option target="ObjetTp2"/>
+		</Unit>
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Tri_tas.c">
 			<Option target="ObjetTp2"/>
 		</Unit>
 		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/main.c">

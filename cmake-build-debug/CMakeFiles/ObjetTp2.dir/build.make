@@ -78,19 +78,79 @@ CMakeFiles/ObjetTp2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ObjetTp2.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\main.c -o CMakeFiles\ObjetTp2.dir\main.c.s
 
+CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj: CMakeFiles/ObjetTp2.dir/flags.make
+CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj: ../Tri_bulle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ObjetTp2.dir\Tri_bulle.c.obj -c C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_bulle.c
+
+CMakeFiles/ObjetTp2.dir/Tri_bulle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ObjetTp2.dir/Tri_bulle.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_bulle.c > CMakeFiles\ObjetTp2.dir\Tri_bulle.c.i
+
+CMakeFiles/ObjetTp2.dir/Tri_bulle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ObjetTp2.dir/Tri_bulle.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_bulle.c -o CMakeFiles\ObjetTp2.dir\Tri_bulle.c.s
+
+CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj: CMakeFiles/ObjetTp2.dir/flags.make
+CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj: ../Tri_insertion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ObjetTp2.dir\Tri_insertion.c.obj -c C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_insertion.c
+
+CMakeFiles/ObjetTp2.dir/Tri_insertion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ObjetTp2.dir/Tri_insertion.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_insertion.c > CMakeFiles\ObjetTp2.dir\Tri_insertion.c.i
+
+CMakeFiles/ObjetTp2.dir/Tri_insertion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ObjetTp2.dir/Tri_insertion.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_insertion.c -o CMakeFiles\ObjetTp2.dir\Tri_insertion.c.s
+
+CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj: CMakeFiles/ObjetTp2.dir/flags.make
+CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj: ../Tri_selection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ObjetTp2.dir\Tri_selection.c.obj -c C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_selection.c
+
+CMakeFiles/ObjetTp2.dir/Tri_selection.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ObjetTp2.dir/Tri_selection.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_selection.c > CMakeFiles\ObjetTp2.dir\Tri_selection.c.i
+
+CMakeFiles/ObjetTp2.dir/Tri_selection.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ObjetTp2.dir/Tri_selection.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_selection.c -o CMakeFiles\ObjetTp2.dir\Tri_selection.c.s
+
+CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj: CMakeFiles/ObjetTp2.dir/flags.make
+CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj: ../Tri_tas.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ObjetTp2.dir\Tri_tas.c.obj -c C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_tas.c
+
+CMakeFiles/ObjetTp2.dir/Tri_tas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ObjetTp2.dir/Tri_tas.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_tas.c > CMakeFiles\ObjetTp2.dir\Tri_tas.c.i
+
+CMakeFiles/ObjetTp2.dir/Tri_tas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ObjetTp2.dir/Tri_tas.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\Tri_tas.c -o CMakeFiles\ObjetTp2.dir\Tri_tas.c.s
+
 # Object files for target ObjetTp2
 ObjetTp2_OBJECTS = \
-"CMakeFiles/ObjetTp2.dir/main.c.obj"
+"CMakeFiles/ObjetTp2.dir/main.c.obj" \
+"CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj" \
+"CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj" \
+"CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj" \
+"CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj"
 
 # External object files for target ObjetTp2
 ObjetTp2_EXTERNAL_OBJECTS =
 
 ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/main.c.obj
+ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj
+ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj
+ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj
+ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj
 ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/build.make
 ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/linklibs.rsp
 ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/objects1.rsp
 ObjetTp2.exe: CMakeFiles/ObjetTp2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ObjetTp2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ObjetTp2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ObjetTp2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,9 +1,8 @@
 //
-// Created by j.guillerminprina on 06/10/2021.
+// Created by j.guillerminprina on 08/10/2021.
 //
 
-#ifndef OBJETTP2_TRI_INSERTION_H
-#define OBJETTP2_TRI_INSERTION_H
+
 
 /**
 * La fonction Tri_insertion permet de trier un tableau de nombres floats de taille variables
@@ -27,4 +26,3 @@ void Tri_insertion(float t[],int taille) {
         t[j] = tmp;
     }
 }
-#endif //OBJETTP2_TRI_INSERTION_H

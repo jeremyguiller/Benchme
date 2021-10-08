@@ -128,6 +128,102 @@ ObjetTp2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/build
 .PHONY : ObjetTp2/fast
 
+Tri_bulle.obj: Tri_bulle.c.obj
+.PHONY : Tri_bulle.obj
+
+# target to build an object file
+Tri_bulle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj
+.PHONY : Tri_bulle.c.obj
+
+Tri_bulle.i: Tri_bulle.c.i
+.PHONY : Tri_bulle.i
+
+# target to preprocess a source file
+Tri_bulle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_bulle.c.i
+.PHONY : Tri_bulle.c.i
+
+Tri_bulle.s: Tri_bulle.c.s
+.PHONY : Tri_bulle.s
+
+# target to generate assembly for a file
+Tri_bulle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_bulle.c.s
+.PHONY : Tri_bulle.c.s
+
+Tri_insertion.obj: Tri_insertion.c.obj
+.PHONY : Tri_insertion.obj
+
+# target to build an object file
+Tri_insertion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj
+.PHONY : Tri_insertion.c.obj
+
+Tri_insertion.i: Tri_insertion.c.i
+.PHONY : Tri_insertion.i
+
+# target to preprocess a source file
+Tri_insertion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_insertion.c.i
+.PHONY : Tri_insertion.c.i
+
+Tri_insertion.s: Tri_insertion.c.s
+.PHONY : Tri_insertion.s
+
+# target to generate assembly for a file
+Tri_insertion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_insertion.c.s
+.PHONY : Tri_insertion.c.s
+
+Tri_selection.obj: Tri_selection.c.obj
+.PHONY : Tri_selection.obj
+
+# target to build an object file
+Tri_selection.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj
+.PHONY : Tri_selection.c.obj
+
+Tri_selection.i: Tri_selection.c.i
+.PHONY : Tri_selection.i
+
+# target to preprocess a source file
+Tri_selection.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_selection.c.i
+.PHONY : Tri_selection.c.i
+
+Tri_selection.s: Tri_selection.c.s
+.PHONY : Tri_selection.s
+
+# target to generate assembly for a file
+Tri_selection.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_selection.c.s
+.PHONY : Tri_selection.c.s
+
+Tri_tas.obj: Tri_tas.c.obj
+.PHONY : Tri_tas.obj
+
+# target to build an object file
+Tri_tas.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_tas.c.obj
+.PHONY : Tri_tas.c.obj
+
+Tri_tas.i: Tri_tas.c.i
+.PHONY : Tri_tas.i
+
+# target to preprocess a source file
+Tri_tas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_tas.c.i
+.PHONY : Tri_tas.c.i
+
+Tri_tas.s: Tri_tas.c.s
+.PHONY : Tri_tas.s
+
+# target to generate assembly for a file
+Tri_tas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Tri_tas.c.s
+.PHONY : Tri_tas.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ObjetTp2
+	@echo ... Tri_bulle.obj
+	@echo ... Tri_bulle.i
+	@echo ... Tri_bulle.s
+	@echo ... Tri_insertion.obj
+	@echo ... Tri_insertion.i
+	@echo ... Tri_insertion.s
+	@echo ... Tri_selection.obj
+	@echo ... Tri_selection.i
+	@echo ... Tri_selection.s
+	@echo ... Tri_tas.obj
+	@echo ... Tri_tas.i
+	@echo ... Tri_tas.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
