@@ -8,12 +8,12 @@
 
 #include <string.h>
 
-void Tri_insertion(int t[]) {
+void Tri_insertion(float t[],int taille) {
     int i, j;
-    int tmp;
+    float tmp;
 
-    for (i = 1; i < 20; i++) {
-        tmp = t[i-1];
+    for (i = 1; i < taille; i++) {
+        tmp = t[i];
         for (j = i; j > 0 && t[j-1] > tmp; j--) {
             t[j] = t[j - 1];
         }

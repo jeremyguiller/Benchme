@@ -4,4 +4,5 @@
 CMakeFiles/ObjetTp2.dir/main.c.obj: \
  ../Tri_bulle.h \
  ../Tri_insertion.h \
- ../main.c
+ ../main.c \
+ ../tri_tas.h
