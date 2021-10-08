@@ -36,11 +36,11 @@ void Sur_le_tas(float t[], int n, int i) {
 }
 
 
-void Tri_tas(float t[], int n) {
-    for (int i = n / 2 - 1; i >= 0; i--)
-        Sur_le_tas(t, n, i);
+void Tri_tas(float t[], int taille) {
+    for (int i = taille / 2 - 1; i >= 0; i--)
+        Sur_le_tas(t, taille, i);
 
-    for (int i = n - 1; i >= 0; i--) {
+    for (int i = taille - 1; i >= 0; i--) {
         float a = t[0];
         float b = t[i];
         t[i] = a;

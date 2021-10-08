@@ -4,11 +4,27 @@
 #include <time.h>
 #include "Tri_selection.h"
 #include "Tri_bulle.h"
+#include "Tri_tas.h"
+#include "Tri_insertion.h"
+
+float *getTab(int taille, int graine)
+{
+    float *tab = (float*) malloc(sizeof(float)*taille);
+    srand(graine); // Graine
+    for (int i=0;i<taille;i++)
+    {
+        tab[i] = ((float)rand() / (float)(RAND_MAX)) * taille;
+    }
+    return tab;
+}
+
 
 int main() {
     //initialisation
-        int i, size=100;
-        float tab[size], result;
+        int i, size=1000000, g = 2;
+        float *tab= getTab(size,g);
+        float result;
+
 
     //Initialisation du timer
         clock_t debut,fin;
@@ -20,21 +36,21 @@ int main() {
     //Creation de nombres aleratoires
         for (int i=0;i<size;i++){
             result = ((float)rand()/(float)(RAND_MAX)) * 1000000.0;
-            tab[i]=result; //Insersion des valeurs dans le tableau
+            tab[i]=result; //Insertion des valeurs dans le tableau
         }
+
 
     //Appelle de fonction
         //Tri_selection(tab, size);
         //Tri_bulle(tab, size);
-        //Tri_insersion(tab, size);
-        //Tri_tas(tab, size);
+        //Tri_insertion(tab, size);
+        Tri_tas(tab, size);
 
+    /*printf("\n");
+    for (i=0;i<size;i++){
+        printf("%.2f\n ",tab[i]);
+    }*/
 
-    //Affichage
-        printf("\n");
-        for (i=0;i<size;i++){
-            printf("%.1f ",tab[i]);
-        }
 
     //Fin de mesure de temps
         fin = clock();
