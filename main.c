@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <math.h>
 #include "Fonctions.h"
 
 
@@ -18,41 +19,24 @@ float *getTab(int size, int graine)
 
 
 int main() {
-    //initialisation
-        int i, size=100000, g = 2;
-        float *tab= getTab(size,g);
-        float result;
-
-
-    //Initialisation du timer
-        clock_t debut,fin;
-        double temps;
-
-    //Debut de mesure de temps
-        debut = clock();
-
-
-
-    //Appelle de fonction
-        //Tri_selection(tab, size);
-        //Tri_bulle(tab, size);
-        //Tri_insertion(tab, size);
-        Tri_tas(tab, size);
-
-    printf("\n");
-    for (i=0;i<size;i++) {
-        printf("%.2f\n ", tab[i]);
+    //initialisation Tri_tas
+    clock_t debut,fin;
+    double temps, moy = 0;
+    for(int k=2;k<8;k++){
+        moy = 0;
+        int size = pow(10,k);
+        for(int i = 0 ; i<3;i++){
+            int g = 1;
+            float *t = getTab(size,g);
+            debut = clock();
+            Tri_tas(t,size);
+            fin = clock();
+            temps = ((double)fin-debut) / CLOCKS_PER_SEC;
+            moy+=temps;
+            g++;
+        }
     }
+    printf("\n\nTemps d'execution : %.4f",moy/3);
 
 
-    //Fin de mesure de temps
-        fin = clock();
-
-    //Stockage et affichage du temps
-        temps = ((double)fin-debut) / CLOCKS_PER_SEC;
-        printf("\n\nTemps d'execution : %.4f",temps);
-
-
-    printf("\n");
-    return 0;
 }
