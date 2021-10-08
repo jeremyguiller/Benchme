@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Bench.c">
+			<Option target="ObjetTp2"/>
+		</Unit>
 		<Unit filename="C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/Fonctions.h">
 			<Option target="ObjetTp2"/>
 		</Unit>

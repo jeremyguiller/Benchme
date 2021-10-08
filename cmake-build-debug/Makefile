@@ -128,6 +128,30 @@ ObjetTp2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/build
 .PHONY : ObjetTp2/fast
 
+Bench.obj: Bench.c.obj
+.PHONY : Bench.obj
+
+# target to build an object file
+Bench.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Bench.c.obj
+.PHONY : Bench.c.obj
+
+Bench.i: Bench.c.i
+.PHONY : Bench.i
+
+# target to preprocess a source file
+Bench.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Bench.c.i
+.PHONY : Bench.c.i
+
+Bench.s: Bench.c.s
+.PHONY : Bench.s
+
+# target to generate assembly for a file
+Bench.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Bench.c.s
+.PHONY : Bench.c.s
+
 Tri_bulle.obj: Tri_bulle.c.obj
 .PHONY : Tri_bulle.obj
 
@@ -257,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ObjetTp2
+	@echo ... Bench.obj
+	@echo ... Bench.i
+	@echo ... Bench.s
 	@echo ... Tri_bulle.obj
 	@echo ... Tri_bulle.i
 	@echo ... Tri_bulle.s
