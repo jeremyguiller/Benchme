@@ -1,6 +1,12 @@
 #ifndef OBJETTP2_TRI_SELECTION_H
 #define OBJETTP2_TRI_SELECTION_H
-
+/**
+* La fonction Tri_selection permet de trier un tableau de nombres floats de taille variables
+* à l'aide de l'algorithme de tri par selection
+* @author  MAXIME BENUCCI
+* @version 1.0
+* @since  008/10/2021
+*/
 void Tri_selection(float tab[], int size){
     //initialisation
         float tmp;

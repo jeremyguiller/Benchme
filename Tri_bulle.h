@@ -1,6 +1,12 @@
 #ifndef OBJETTP2_TRI_BULLE_H
 #define OBJETTP2_TRI_BULLE_H
-
+/**
+* La fonction Tri_bulle permet de trier un tableau de nombres floats de taille variables
+* à l'aide de l'algorithme de tri par bulle
+* @author  Maxime BENUCCI
+* @version 1.0
+* @since  008/10/2021
+*/
 void Tri_bulle(float tab[], int size){
     //initialisation
         float tmp;

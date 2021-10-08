@@ -4,6 +4,15 @@
 
 #ifndef OBJETTP2_TRI_TAS_H
 #define OBJETTP2_TRI_TAS_H
+/**
+* La fonction Tri_cas permet de trier un tableau de taille evolutive à l'aide de
+* de l'algorithme de tri par tas
+* @author  Jeremy GUILLERMIN PRINA CERAI
+* @version 1.0
+* @since  008/10/2021
+*/
+//fonction Sur_le_tas permet de construire le tas
+//On l'apelle dans la boucle
 void Sur_le_tas(float t[], int n, int i) {
     int max = i;
     int gauche = 2 * i + 1;
@@ -17,6 +26,7 @@ void Sur_le_tas(float t[], int n, int i) {
 
 
     if (max != i) {
+        //on inverse les valeurs du tableau
         float a = t[i];
         float b = t[max];
         t[max]=a;
