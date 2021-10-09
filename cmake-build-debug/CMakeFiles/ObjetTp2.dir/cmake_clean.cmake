@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ObjetTp2.dir/Bench.c.obj"
+  "CMakeFiles/ObjetTp2.dir/Test.c.obj"
   "CMakeFiles/ObjetTp2.dir/Tri_bulle.c.obj"
   "CMakeFiles/ObjetTp2.dir/Tri_insertion.c.obj"
   "CMakeFiles/ObjetTp2.dir/Tri_selection.c.obj"

@@ -1,4 +1,4 @@
-C:\Users\j.guillerminprina\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\j.guillerminprina\CLionProjects\ObjetTp2
+C:\Users\maxbe\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\maxbe\CLionProjects\Benchme
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/j.guillerminprina/CLionProjects/ObjetTp2/cmake-build-debug
+-- Build files have been written to: C:/Users/maxbe/CLionProjects/Benchme/cmake-build-debug

@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\j.guillerminprina\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\maxbe\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\j.guillerminprina\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\maxbe\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\j.guillerminprina\CLionProjects\ObjetTp2
+CMAKE_SOURCE_DIR = C:\Users\maxbe\CLionProjects\Benchme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\maxbe\CLionProjects\Benchme\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\j.guillerminprina\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\maxbe\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\j.guillerminprina\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\maxbe\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxbe\CLionProjects\Benchme\cmake-build-debug\CMakeFiles C:\Users\maxbe\CLionProjects\Benchme\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\j.guillerminprina\CLionProjects\ObjetTp2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxbe\CLionProjects\Benchme\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,6 +151,30 @@ Bench.s: Bench.c.s
 Bench.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Bench.c.s
 .PHONY : Bench.c.s
+
+Test.obj: Test.c.obj
+.PHONY : Test.obj
+
+# target to build an object file
+Test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Test.c.obj
+.PHONY : Test.c.obj
+
+Test.i: Test.c.i
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Test.c.i
+.PHONY : Test.c.i
+
+Test.s: Test.c.s
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjetTp2.dir\build.make CMakeFiles/ObjetTp2.dir/Test.c.s
+.PHONY : Test.c.s
 
 Tri_bulle.obj: Tri_bulle.c.obj
 .PHONY : Tri_bulle.obj
@@ -284,6 +308,9 @@ help:
 	@echo ... Bench.obj
 	@echo ... Bench.i
 	@echo ... Bench.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 	@echo ... Tri_bulle.obj
 	@echo ... Tri_bulle.i
 	@echo ... Tri_bulle.s
