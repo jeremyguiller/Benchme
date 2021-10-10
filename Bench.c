@@ -148,7 +148,7 @@ void Bench_Tas(char *filename,int a[][3],int n){
 
     printf("\nTraitement en cours...\n");
 
-    for(int k=2;k<7;k++){
+    for(int k=2;k<8;k++){
         moy = 0;
         int size = pow(10,k);
         for(int i = 0 ; i<3;i++){
