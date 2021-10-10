@@ -7,7 +7,7 @@ et executer
 minwg32-make
 ```
 on genere ainsi un fichier Benchme.exe
-###Linux
+### Linux
 pour build l'application sur linux, se placer dans le repertoire Benchme
 et executer 
 ```shell
